@@ -7,7 +7,7 @@
 */
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb+srv://anweshipsitpatel:trzf4HtvQkzMmhqE@cluster0.gfjph.mongodb.net/userappnew?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://@username:password.gfjph.mongodb.net/userappnew?retryWrites=true&w=majority&appName=Cluster0")
 
 const todoSchema = mongoose.Schema({
     title: String,
